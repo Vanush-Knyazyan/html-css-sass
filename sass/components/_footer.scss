@@ -1,0 +1,173 @@
+/* footer */
+.footer {
+  background-color: $footer-bg-cl;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo--white {
+  display: inline-block;
+  color: $footer-logo-cl;
+  margin-bottom: 20px;
+
+  .logo__color {
+    color: #2196f3;
+  }
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.contacts__address {
+  font-family: $main-font;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  text-decoration: none;
+
+  color: $light-txt-cl;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-link {
+  font-family: $main-font;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  text-decoration: none;
+
+  color: #ffffff99;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-cl;
+  }
+}
+
+.social {
+  margin-left: 70px;
+}
+.social__title {
+  margin-bottom: 20px;
+  font-family: $main-font;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+
+  color: $light-txt-cl;
+}
+
+.social__list {
+  display: flex;
+  justify-content: center;
+}
+
+.social__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+
+  color: $main-bg-cl;
+  background-color: $footer-icon-bg-cl;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-cl;
+  }
+}
+
+.subscription {
+  margin-left: 93px;
+
+  .subscription__title {
+    margin-bottom: 20px;
+    font-family: $main-font;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+
+    color: $light-txt-cl;
+  }
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 12px;
+}
+.email__input {
+  // display: inline-block;
+  width: 358px;
+  height: 50px;
+
+  padding: 16px 15px;
+
+  border: 1px solid $main-txt-cl;
+  border-radius: 4px;
+  outline: transparent;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  color: #fff;
+  background-color: transparent;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    border-color: $accent-cl;
+  }
+}
+
+.email__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 32px;
+
+  width: 200px;
+  height: 50px;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  border-radius: 4px;
+
+  background-color: #2196f3;
+  color: $light-txt-cl;
+}

@@ -1,80 +1,77 @@
 body {
-    font-family: var(--main-font);
-    font-size: 14px;
-    font-style: normal;
-    letter-spacing: 0.03em;
-  
-    color: var(--main-txt-cl);
-    background-color: var(--main-bg-cl);
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  ul {
-    list-style-type: none;
-  }
-  
-  button {
-    display: block;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-  }
-  
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  address {
-    font-style: normal;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  
-  .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  
-  .section:nth-child(2) {
-    padding-bottom: 0px;
-  }
-  
-  .list {
-    list-style: none;
-    }
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-  
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+  font-family: $main-font;
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 0.03em;
+
+  color: $main-txt-cl;
+  background-color: $main-bg-cl;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section:nth-child(2) {
+  padding-bottom: 0px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
