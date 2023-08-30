@@ -246,6 +246,53 @@ a {
   border-radius: 2px;
 }
 
+.hero {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/svg/hero.svg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/svg/hero.svg);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  max-height: 600px;
+  background-color: #2f303a;
+  text-align: center;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 696px;
+  /* text-align: center; */
+  font-family: "Roboto", sans-serif;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero__btn {
+  min-width: 216px;
+  margin: 0 auto;
+  padding: 10px 32px;
+  /* border: 0px; */
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  /* text-align: center; */
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.96px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
 /* footer */
 .footer {
   background-color: #2f303a;
@@ -275,18 +322,6 @@ a {
   margin-bottom: 12px;
 }
 
-.contacts__address {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.71;
-  letter-spacing: 0.42px;
-  text-decoration: none;
-  color: #ffffff;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .contacts-link {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -300,6 +335,18 @@ a {
 }
 .contacts-link:hover, .contacts-link:focus {
   color: #2196f3;
+}
+
+.contacts__address {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social {

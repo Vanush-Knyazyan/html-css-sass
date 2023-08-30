@@ -24,19 +24,6 @@
   margin-bottom: 12px;
 }
 
-.contacts__address {
-  font-family: $main-font;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.71;
-  letter-spacing: 0.42px;
-  text-decoration: none;
-
-  color: $light-txt-cl;
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .contacts-link {
   font-family: $main-font;
   font-size: 14px;
@@ -53,6 +40,19 @@
   &:focus {
     color: $accent-cl;
   }
+}
+
+.contacts__address {
+  font-family: $main-font;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  text-decoration: none;
+
+  color: $light-txt-cl;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social {
