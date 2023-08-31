@@ -25,6 +25,7 @@
 .site-nav {
   display: flex;
   align-items: center;
+
   .site-nav_pages {
     display: flex;
     justify-content: left;
@@ -127,7 +128,7 @@
   }
 }
 
-.site-contacts__iitem {
+.site-contacts__item {
   margin-right: 50px;
 }
 .site-contacts__i:last-child {
@@ -138,12 +139,12 @@
   margin-right: 10px;
   fill: currentColor;
 }
-.current {
+.site-nav__link--current {
   position: relative;
   color: $accent-cl;
 }
 
-.current::after {
+.site-nav__link--current::after {
   content: '';
 
   position: absolute;
